@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'gradiant_container.dart';
+import 'package:tarea_08_dado/gradiant_container.dart';
 
 void main()  {
   runApp(
     const MaterialApp(
       home: Scaffold(
-        body: GradiantContainer.blue(),
+        body: GradiantContainer.dark(),
 
       ),
     )
